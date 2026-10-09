@@ -12,6 +12,9 @@
     {% endif %}
     <meta property="og:site_name" content="alizard.gay">
     <link rel="stylesheet" href="/assets/css/base.css">
+    {% if style %}
+    <link rel="stylesheet" href="{{ style }}">
+    {% endif %}
 </head>
 <body>
     {% include "partials/header.njk" %}
