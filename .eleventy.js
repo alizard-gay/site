@@ -1,4 +1,4 @@
-module.exports = function(eleventyConfigure) {
+export default function(eleventyConfigure) {
 
     // pass throughs
     eleventyConfigure.addPassthroughCopy("src/assets");

@@ -1,7 +1,7 @@
 {
-  "name": "code",
+  "name": "alizardgay",
   "version": "1.0.0",
-  "description": "alizard site",
+  "description": "My site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
