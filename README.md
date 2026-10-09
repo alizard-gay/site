@@ -1,7 +1,7 @@
 My personal site's code
 
 # Contributions 
-Not accepting and contributions.
+Not accepting any contributions.
 
 # License
-Code is not licensed, all rights reserved. 
+Code is not licensed, all rights reserved.
