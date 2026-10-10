@@ -30,5 +30,5 @@ export default function(eleventyConfig) {
         output: "_site",
         includes: "_includes"
         }
-  };
-};
+  }
+}
