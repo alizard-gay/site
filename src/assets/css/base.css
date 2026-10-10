@@ -4,7 +4,7 @@
   --text-color: #444444; 
   --code-block-color: white;
   --shadow-color: #ffffff; 
-  --navlink-color: color: blue;
+  --navlink-color: blue;
 }
 
 html[data-theme="light"] {
