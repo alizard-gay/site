@@ -4,6 +4,7 @@
   --text-color: #444444; 
   --code-block-color: white;
   --shadow-color: #ffffff; 
+  --navlink-color: color: blue;
 }
 
 html[data-theme="light"] {
@@ -22,6 +23,7 @@ html[data-theme="dark"] {
         --text-color: #e0e0e0;
         --code-block-color: black;
         --shadow-color: #050505; 
+        --navlink-color: cyan;
     }
 }
 
@@ -59,5 +61,5 @@ a:hover {
 }
 
 .nav-button {
-    color: blue;
+    color: var(--navlink-color)
 }
