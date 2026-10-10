@@ -9,13 +9,15 @@ export default function(eleventyConfig) {
         type: "atom",
         outputPath: "/feed.xml",
         collection: {
-            name: "posts",
-            limit: 15,
-            sort: "auto"
+            name: "post",
+            limit: 10,
+            sort: "descending",
+            items: (collections) => collections.getFilteredByTag("post")
         },
         metadata: {
             language : "en",
             title : "alizardgay blog",
+            subtitle : "Personal blog",
             base : "https://alizard.gay/blog/",
             author: {
                 name: "alizard",
@@ -29,6 +31,7 @@ export default function(eleventyConfig) {
         input: "src",
         output: "_site",
         includes: "_includes"
-        }
+        },
+    templateFormats: ["md", "njk", "html"] 
   }
 }
