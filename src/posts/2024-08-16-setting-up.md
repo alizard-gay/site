@@ -3,7 +3,7 @@ title: Setting Up
 date: 2024-08-16
 tags: legacy
 ---
-> This post is imported from my old blog and may be outdated
+> **This post is imported from my old blog and may be outdated**
 
 ## Life Logs
 I decided between techy posts and projects I will try to do smaller "life logs" talking about many subjects at once in a micro blogging collage, you'll be able to find a list of em under the categories tag.

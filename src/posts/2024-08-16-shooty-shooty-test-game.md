@@ -3,7 +3,7 @@ title: Shooty Shooty Test Game
 date: 2024-08-16
 tags: legacy
 ---
-> This post is imported from my old blog and may be outdated
+> **This post is imported from my old blog and may be outdated**
 
 ## Intro
 Today been a very chill day of playing Minecraft and being sick, spent the later half of my night building a very quick base for a little game I want to design over the weekend.

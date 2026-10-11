@@ -3,7 +3,7 @@ title: Hello Site
 date: 2024-08-10
 tags: legacy
 ---
-> This post is imported from my old blog and may be outdated
+> **This post is imported from my old blog and may be outdated**
 
 ## It's alive!!!
 Lizard blog v2 should now be running! My next goal will be to setup the subdomain and to get a basic theme running.

@@ -3,7 +3,7 @@ title: Floods and DNS
 date: 2024-08-18
 tags: legacy
 ---
-> This post is imported from my old blog and may be outdated
+> **This post is imported from my old blog and may be outdated**
 
 ## The flood
 I wanted to work more on my WIP Godot game, but it has been a chaotic two days with my room being mildly flooded last night. 

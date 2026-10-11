@@ -1,7 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
-<p><strong>Posted: {{ date.toDateString() }}</strong> - <strong>By: alizard</strong></p> 
+<article>
+<p><strong>Posted:</strong> <time datetime="{{ date.toISOString() }}">{{ date.toDateString() }}</time> - <strong>Author:</strong> alizard</p> 
 <hr>
-
+<h1>{{ title }}</h1>
 {{ content | safe }}
+</article>
