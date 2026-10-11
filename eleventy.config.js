@@ -4,6 +4,7 @@ export default function(eleventyConfig) {
 
     // pass throughs
     eleventyConfig.addPassthroughCopy("src/assets");
+    eleventyConfig.addPassthroughCopy("src/.well-known");
 
     eleventyConfig.addPlugin(feedPlugin, {
         type: "atom",
