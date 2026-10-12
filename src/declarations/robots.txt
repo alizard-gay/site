@@ -36,6 +36,10 @@ User-Agent: *
 Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 
+Google-Extended
+Content-Signal: ai-train=no, search=no, ai-input=no
+Disallow: /
+
 User-agent: Bytespider
 Content-Signal: ai-train=no, search=no, ai-input=no
 Disallow: /
