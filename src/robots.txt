@@ -1,0 +1,4 @@
+User-agent: Bytespider
+Disallow: /
+
+Host: https://alizard.gay/
