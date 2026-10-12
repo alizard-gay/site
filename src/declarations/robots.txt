@@ -1,7 +1,11 @@
+# Welcome to my Robots.txt file
+# In this era of the internet these matter very little, but might as well make one.
+
 User-agent: Bytespider
 Disallow: /
 
-User-agent: archive.org_bot
-Allow: /
+User-agent: ClaudeBot
+Disallow: /
+
 
 Host: https://alizard.gay/
