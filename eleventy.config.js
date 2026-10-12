@@ -6,7 +6,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/.well-known");
 
-    eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
+    eleventyConfig.addPassthroughCopy({ 'src/declarations/robots.txt': '/robots.txt' });
 
     eleventyConfig.addPlugin(feedPlugin, {
         type: "atom",
