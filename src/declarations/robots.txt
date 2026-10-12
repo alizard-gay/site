@@ -1,4 +1,7 @@
 User-agent: Bytespider
 Disallow: /
 
+User-agent: archive.org_bot
+Allow: /
+
 Host: https://alizard.gay/
