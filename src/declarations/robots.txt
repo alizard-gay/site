@@ -37,16 +37,18 @@ Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
 
 Google-Extended
-Content-Signal: ai-train=no, search=no, ai-input=no
+Disallow: /
+
+User-agent: Applebot-Extended
 Disallow: /
 
 User-agent: Bytespider
-Content-Signal: ai-train=no, search=no, ai-input=no
 Disallow: /
 
 User-agent: ClaudeBot
-Content-Signal: ai-train=no, search=no, ai-input=no
 Disallow: /
 
+User-agent: meta-externalagent
+Disallow: /
 
 Host: alizard.gay
