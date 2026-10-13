@@ -5,8 +5,10 @@ export default function(eleventyConfig) {
     // pass throughs
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/.well-known");
+    eleventyConfig.addPassthroughCopy({ 'src/assets/favicon': '/favicon' });
 
     eleventyConfig.addPassthroughCopy({ 'src/declarations/robots.txt': '/robots.txt' });
+    
 
     eleventyConfig.addPlugin(feedPlugin, {
         type: "atom",
