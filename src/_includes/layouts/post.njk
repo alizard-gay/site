@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 <article>
-<p><strong>Posted:</strong> <time datetime="{{ date.toISOString() }}">{{ date.toDateString() }}</time> - <strong>Author:</strong> alizard</p> 
+<p><strong>Posted:</strong> <time datetime="{{ date.toISOString() }}">{{ date.toDateString() }}</time> - <strong>Author:</strong> <a class="u-author" href="/~alizard">alizard</a></p> 
 <hr>
 <h1>{{ title }}</h1>
 {{ content | safe }}
