@@ -16,7 +16,6 @@
                     Sitemap
                     <xsl:if test="sitemap:sitemapindex">Index</xsl:if>
                 </title>
-                <link rel="stylesheet" href="https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css"/>
             </head>
             <body class="ph3 pb3 mid-gray">
                 <header class="mw8 pv4 center">
@@ -58,7 +57,7 @@
                 <xsl:apply-templates/>
 
                 <footer class="mw8 center pv4 tc">
-                    This is an open source <a href="https://github.com/pedroborges/xml-sitemap-stylesheet" title="Go to Github" class="link blue">XML Sitemap Stylesheet</a> created by <a href="https://pedroborg.es" title="Pedro Borges" class="link blue">pedroborg.es</a>
+                    Based on open source <a href="https://github.com/pedroborges/xml-sitemap-stylesheet" title="Go to Github" class="link blue">XML Sitemap Stylesheet</a> created by <a rel="nofollow" href="https://pedroborg.es" title="Pedro Borges" class="link blue">pedroborg.es</a>
                 </footer>
 
             </body>
