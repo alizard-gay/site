@@ -1,0 +1,21 @@
+.blog-card-holder {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    width: 100%;
+}
+
+.blog-card {
+    outline: white dotted 2px;
+    padding: 3px 20px;
+    margin: 20px 0;
+    list-style: none;
+}
+
+.post-card-desc {
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}

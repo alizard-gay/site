@@ -1,6 +1,6 @@
 ---
 title: We are so back
-description: This officially marks the third(?) time I've setup a blog, this time will hopefully be the final as I've built this fully from scratch and am confident in the codebase.
+description: This officially marks the third(?) time I've setup a blog, this time will hopefully be the final as I've built this fully from scratch and am confident in the codebase
 date: 2026-10-10
 ---
 We are now officially moved to alizard.gay!
