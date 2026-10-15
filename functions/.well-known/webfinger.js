@@ -3,9 +3,10 @@ export async function onRequest(context) {
   const resource = url.searchParams.get("resource");
 
   if (resource === "acct:me@alizard.gay") {
-    const response = await context.next();
+    const targetUrl = new URL("/.well-known/webfinger-private.json", url.origin);
+    const assetResponse = await fetch(targetUrl);
     
-    return new Response(response.body, {
+    return new Response(assetResponse.body, {
       status: 200,
       headers: {
         "Content-Type": "application/jrd+json; charset=utf-8",
@@ -15,6 +16,6 @@ export async function onRequest(context) {
     });
   }
 
-  // Block everything else with a 404
+  // Deny all other federated query hooks explicitly
   return new Response("Not Found", { status: 404 });
 }

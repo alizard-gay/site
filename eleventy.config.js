@@ -7,7 +7,6 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/assets/favicon': '/favicon' });
 
     eleventyConfig.addPassthroughCopy({"src/declarations/_headers" : "/_headers"});
-    eleventyConfig.addPassthroughCopy({"src/declarations/_redirects" : "/_redirects"});
 
     eleventyConfig.addPassthroughCopy({"src/declarations/well-known" : "/.well-known"});
     eleventyConfig.addPassthroughCopy({ 'src/sitemap.xsl': 'sitemap.xsl' });
