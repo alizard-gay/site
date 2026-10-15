@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+title: Blog Archive
+pagination:
+  data: collections.post
+  size: 10
+  alias: posts
+permalink: "archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+<h2>{{ title }}</h2>
+
+{# 1. Loop through the paginated posts chunk #}
+<ul class="post-list">
+  {% for post in posts %}
+    <li>
+      <p><a href="{{ post.url }}">(<time datetime="{{ post.date.toISOString() }}">{{ post.date.toDateString() }}</time>)
+      {{ post.data.title }}</a></p>
+    </li>
+  {% endfor %}
+</ul>
+
+{# 2. Pagination Navigation #}
+<nav aria-label="Archive Navigation">
+  <p>
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}">← Newer Posts</a>
+      {% else %}
+        <span>Newer Posts</span>
+      {% endif %}
+        -
+      {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}">Older Posts →</a>
+      {% else %}
+        <span>Older Posts</span>
+      {% endif %}
+  </p>
+</nav>
