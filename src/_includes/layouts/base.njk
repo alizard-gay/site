@@ -14,6 +14,12 @@
     <meta property="og:type" content="{{ type | default('website') }}">
     {% if type == "article" %}
     <meta property="article:author" content="{{ author | default('https://alizard.gay/~alizard/') }}" />
+        {% if date %}
+        <meta property="article:published_time" content="{{ date.toISOString() }}}" />
+        {% endif %}
+        {% if updated %}
+        <meta property="article:published_time" content="{{ updated.toISOString() }}}" />
+        {% endif %}
     {% endif %}
     <meta property="og:site_name" content="alizard.gay">
 
