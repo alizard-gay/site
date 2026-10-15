@@ -11,7 +11,12 @@
     {% if description %}
     <meta name="description" content="{{ description }}">
     {% endif %}
+    <meta property="og:type" content="{{ type | default('website') }}">
+    {% if type == "article" %}
+    <meta property="article:author" content="{{ author | default('https://alizard.gay/~alizard/') }}" />
+    {% endif %}
     <meta property="og:site_name" content="alizard.gay">
+
     <link rel="stylesheet" href="/assets/css/base.css">
     {% if style %}
     <link rel="stylesheet" href="/assets/css/{{ style }}">
