@@ -4,10 +4,9 @@ export default function(eleventyConfig) {
 
     // pass throughs
     eleventyConfig.addPassthroughCopy("src/assets");
-    eleventyConfig.addPassthroughCopy("src/.well-known");
     eleventyConfig.addPassthroughCopy({ 'src/assets/favicon': '/favicon' });
 
-
+     eleventyConfig.addPassthroughCopy({"src/declarations/well-known" : "/.well-known"});
     eleventyConfig.addPassthroughCopy({ 'src/sitemap.xsl': 'sitemap.xsl' });
     eleventyConfig.addPassthroughCopy({ 'src/declarations/robots.txt': '/robots.txt' });
     
