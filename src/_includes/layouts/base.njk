@@ -21,6 +21,10 @@
         <meta property="article:article:modified_time" content="{{ updated.toISOString() }}}" />
         {% endif %}
     {% endif %}
+    {% if image %}
+        <meta property="og:image" content="{{ image }}">
+        <meta name="twitter:card" content="summary_large_image">
+    {% endif %}
     <meta property="og:site_name" content="alizard.gay">
 
     <link rel="stylesheet" href="/assets/css/base.css">
