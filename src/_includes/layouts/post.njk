@@ -3,6 +3,9 @@ layout: layouts/base.njk
 ---
 <article class="h-entry">
 <p><strong>Posted:</strong> <time class="dt-published" datetime="{{ date.toISOString() }}">{{ date.toDateString() }}</time> - <strong>Author:</strong> <a rel="author" class="u-author h-card" href="/~alizard">alizard</a></p> 
+{% if updated %}
+    <p style="line-height: 0;"><sub>Last Updated: {{ updated.toDateString() }} </sub></p>
+{% endif %}
 <hr>
 <h1 class="p-name">{{ title }}</h1>
 <div class="e-content">
