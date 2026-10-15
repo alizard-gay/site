@@ -30,3 +30,4 @@ test/stubs-layout-cache/_includes/*.js
 # Reuse docs from root
 packages/build-awesome/README.md
 packages/build-awesome/docs/
+/.wrangler
