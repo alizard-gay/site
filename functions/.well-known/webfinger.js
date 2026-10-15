@@ -16,6 +16,5 @@ export async function onRequest(context) {
     });
   }
 
-  // Deny all other federated query hooks explicitly
   return new Response("Not Found", { status: 404 });
 }
