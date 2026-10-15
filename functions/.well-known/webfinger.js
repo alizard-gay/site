@@ -4,7 +4,8 @@ export async function onRequest(context) {
 
   if (resource === "acct:me@alizard.gay") {
     const targetUrl = new URL("/.well-known/webfinger-private.json", url.origin);
-    const assetResponse = await fetch(targetUrl);
+    
+    const assetResponse = await context.env.ASSETS.fetch(targetUrl);
     
     return new Response(assetResponse.body, {
       status: 200,
