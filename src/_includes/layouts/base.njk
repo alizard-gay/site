@@ -23,7 +23,7 @@
     {% endif %}
     {% if image %}
         <meta property="og:image" content="https://alizard.gay/{{ image }}">
-        <meta name="twitter:card" content="summary">
+        <meta name="twitter:card" content="{{ imagetype | default('summary') }}">
         {% if imagealt %}
             <meta property="og:image:alt" content="{{ imagealt }}">
         {% endif %}
