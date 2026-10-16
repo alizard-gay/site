@@ -6,6 +6,7 @@ pagination:
   size: 10
   alias: posts
 permalink: "blog/archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+eleventyExcludeFromCollections: true
 ---
 <h2>{{ title }}</h2>
 
