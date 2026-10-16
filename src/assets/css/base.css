@@ -4,7 +4,7 @@
   --text-color: #444444; 
   --code-block-color: white;
   --shadow-color: #ffffff; 
-  --navlink-color: blue;
+  --navlink-color: rgb(0, 148, 37);
 }
 
 @media (prefers-color-scheme: dark)
@@ -14,7 +14,7 @@
         --text-color: #e0e0e0;
         --code-block-color: black;
         --shadow-color: #050505; 
-        --navlink-color: cyan;
+        --navlink-color: rgb(72, 255, 0);
     }
 }
 
