@@ -10,7 +10,6 @@ eleventyExcludeFromCollections: true
 ---
 <h2>{{ title }}</h2>
 
-{# 1. Loop through the paginated posts chunk #}
 <ul class="post-list">
   {% for post in posts %}
     <li>
@@ -20,7 +19,6 @@ eleventyExcludeFromCollections: true
   {% endfor %}
 </ul>
 
-{# 2. Pagination Navigation #}
 <nav aria-label="Archive Navigation">
   <p>
       {% if pagination.href.previous %}
