@@ -4,6 +4,8 @@ description: This officially marks the third(?) time I've setup a blog, this tim
 date: 2026-10-10T00:00:00-07:00
 updated: 2026-10-14T00:00:00-07:00
 tags: site meta
+image: assets/images/blog/thumbnails/lizard_icon.png
+imagetype: summary
 ---
 We are now officially moved to alizard.gay!
 

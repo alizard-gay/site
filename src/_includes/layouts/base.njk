@@ -23,12 +23,13 @@
     {% endif %}
     {% if image %}
         <meta property="og:image" content="https://alizard.gay/{{ image }}">
-        <meta name="twitter:card" content="summary">
+        <meta name="twitter:card" content="{{ imagetype | default('summary') }}">
         {% if imagealt %}
             <meta property="og:image:alt" content="{{ imagealt }}">
         {% endif %}
     {% endif %}
     <meta property="og:site_name" content="alizard.gay">
+    <meta name="theme-color" content="#4895d4" />
 
     <link rel="stylesheet" href="/assets/css/base.css">
     {% if style %}
@@ -41,6 +42,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="alizard.gay" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="webmention" href="https://webmention.io/alizard.gay/webmention" />
 </head>
 <body>
     {% include "partials/header.njk" %}
