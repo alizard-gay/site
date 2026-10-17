@@ -43,6 +43,10 @@
             "alt" : "Indieweb Badge" 
         },
         {
+            "src" : "/assets/images/badges/human-made.gif",
+            "alt" : "Human made Badge" 
+        },
+        {
             "href" : "https://store.steampowered.com/",
             "src" : "/assets/images/badges/steam.webp",
             "alt" : "Steam Badge" 
