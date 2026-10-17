@@ -22,7 +22,7 @@ date: Git Last Modified
     <ul id="friends">
         {% for badge in badges.friends %}
         <li>     
-            <a rel="friend" href="{{ badge.href }}">
+            <a rel="friend noopener" href="{{ badge.href }}">
             <img style="image-rendering: pixelated;" src="{{ badge.src }}" alt="{{ badge.alt }}">
             </a>
         </li>
@@ -36,7 +36,7 @@ date: Git Last Modified
     <ul>
         {% for badge in badges.explore %}
         <li>     
-            <a rel="friend" href="{{ badge.href }}">
+            <a rel="friend noopener" href="{{ badge.href }}">
             <img style="image-rendering: pixelated;" src="{{ badge.src }}" alt="{{ badge.alt }}">
             </a>
         </li>
