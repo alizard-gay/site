@@ -1,0 +1,34 @@
+{
+    "badges" : [
+        {
+            "href" : "https://vrbat.nekoweb.org",
+            "src" : "https://vrbat.nekoweb.org/image/vrbatbutton.gif",
+            "alt" : "June Badge"
+        },
+        {
+            "href" : "https://pandashellhole.com/",
+            "src" : "https://pandashellhole.com/resources/phh.png",
+            "alt" : "Panda Badge"
+        },
+        {
+            "href" : "https://boogtoons.neocities.org/",
+            "src" : "https://boogtoons.neocities.org/PinkButton.jpg",
+            "alt" : "Pink Badge" 
+        },
+        {
+            "href" : "https://pollygeist.com/",
+            "src" : "https://raw.githubusercontent.com/Polly-Geist/link-stuff/refs/heads/main/pollygeist-button.gif",
+            "alt" : "Polly Geist Badge" 
+        },
+        {
+            "href" : "https://mentalish.neocities.org/",
+            "src" : "https://mentalish.neocities.org/assets/badges/Slime.png",
+            "alt" : "Mentalish Badge" 
+        },
+        {
+            "href" : "https://icecubegame.net",
+            "src" : "https://icecubegame.net/assets/88x31/icecubegame.gif",
+            "alt" : "Icecubegame Badge" 
+        }
+    ]
+}

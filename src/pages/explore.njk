@@ -20,36 +20,13 @@ date: Git Last Modified
 <hr>
 <section class="friends-list">
     <ul id="friends">
+        {% for badge in friends.badges %}
         <li>     
-            <a rel="friend" href="https://vrbat.nekoweb.org">
-            <img style="image-rendering: pixelated;" src="https://vrbat.nekoweb.org/image/vrbatbutton.gif">
+            <a rel="friend" href="{{ badge.href }}">
+            <img style="image-rendering: pixelated;" src="{{ badge.src }}" alt="{{ badge.alt }}">
             </a>
         </li>
-        <li>     
-            <a rel="friend" href="https://pandashellhole.com/">
-            <img style="image-rendering: pixelated;" src="https://pandashellhole.com/resources/phh.png" alt="Panda Badge">
-            </a>
-        </li>
-        <li>     
-            <a rel="friend" href="https://boogtoons.neocities.org/">
-            <img style="image-rendering: pixelated;" src="https://boogtoons.neocities.org/PinkButton.jpg" alt="Pink Badge">
-            </a>
-        </li>
-        <li>
-            <a rel="friend" href="https://pollygeist.com/">
-            <img style="image-rendering: pixelated;" src="https://raw.githubusercontent.com/Polly-Geist/link-stuff/refs/heads/main/pollygeist-button.gif" alt="Polly Geist Badge">
-            </a>
-        </li>
-        <li>
-            <a rel="friend" href="https://mentalish.neocities.org/">
-            <img style="image-rendering: pixelated;" src="https://mentalish.neocities.org/assets/badges/Slime.png" alt="Mentalish Badge">
-            </a>
-        </li>
-        <li>
-            <a rel="friend" href="https://icecubegame.net">
-            <img style="image-rendering: pixelated;" src="https://icecubegame.net/assets/88x31/icecubegame.gif" alt="Icecubegame Badge">
-            </a>
-        </li>
+        {% endfor %}
     </ul>
 </section>
 
