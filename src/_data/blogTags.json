@@ -1,0 +1,13 @@
+[
+    {
+        "name" : "meta"
+    },
+    {
+        "name" : "indieweb",
+        "color" : "#dd0000"
+    },
+    {
+        "name" : "site",
+        "color" : "#dd0000"
+    }
+]

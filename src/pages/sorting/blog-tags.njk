@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+title: alizard.gay | Tags
+permalink: /blog/tags/
+description: Tags used across my site
+date: Git Last Modified
+---
+<h2>Tags</h2>
+<ul>
+    {% for tag in blogTags %}
+    <li>
+        <p><a style="color: {{ tag.color }};" href="/blog/tags/{{ tag.name }}">#{{ tag.name }}</a> <sub>{{ collections[tag.name].length }}</sub></p>
+    </li>
+    {% endfor %}
+</ul>
