@@ -19,7 +19,7 @@ date: Git Last Modified
 <h2 style="line-height: 0;">My Friends</h2>
 <hr>
 <section class="friends-list">
-    <ul>
+    <ul id="friends">
         <li>     
             <a rel="friend" href="https://vrbat.nekoweb.org">
             <img style="image-rendering: pixelated;" src="https://vrbat.nekoweb.org/image/vrbatbutton.gif">
@@ -74,3 +74,23 @@ date: Git Last Modified
         </li>
     </ul>
 </section>
+
+<script>
+    function shuffleFriends()
+    {
+        const friendsContent = document.getElementById('friends');
+
+        const friendsArray = Array.from(friendsContent.children);
+
+        for (let i = friendsArray.length - 1; i > 0; i--)
+        {
+            const j = Math.floor(Math.random() * (i + 1));
+
+            [friendsArray[i], friendsArray[j]] = [friendsArray[j], friendsArray[i]];
+        }
+
+        friendsArray.forEach(element => friendsContent.appendChild(element));
+    }
+
+    window.onload = shuffleFriends;
+</script>
