@@ -9,8 +9,10 @@ date: Git Last Modified
 eleventyImport:
   collections: ["post"]
 ---
+<hgroup>
 <h2 style="text-align: center;">My Blog Posts</h2>
 <p style="text-align: center; line-height: 0;"><super><a href="https://alizard.gay/blog/feed.xml">Subscribe</a> <a href="/blog/tags/">Tags</a></super></p>
+</hgroup>
 <ul class="blog-card-holder">
     {% for post in collections.post reversed %}
     <li class="blog-card">
