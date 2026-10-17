@@ -7,7 +7,6 @@ tags:
     - site
 image: assets/images/blog/thumbnails/11ty_from_scratch.webp
 imagetype: summary_large_image
-
 ---
 This site was been built piece by piece in [11ty](https://www.11ty.dev/) (soon to be renamed [Build Awesome](https://build.awesome.me/)).
 The site started as mostly just raw HTML pages with no style in a single folder, but in time expanded to have templates and [NJK files](https://mozilla.github.io/nunjucks/templating.html) and plenty of complexity. 11ty is my first time seriously getting into a [SSG](https://developer.mozilla.org/en-US/docs/Glossary/SSG) and it has been an incredibly good experience. 
