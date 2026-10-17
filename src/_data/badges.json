@@ -29,6 +29,11 @@
             "href" : "https://icecubegame.net",
             "src" : "https://icecubegame.net/assets/88x31/icecubegame.gif",
             "alt" : "Icecubegame Badge" 
+        },
+        {
+            "href" : "https://lixquid.com/",
+            "src" : "https://lixquid.com/88x31.gif",
+            "alt" : "Lixquid Badge" 
         }
     ],
     "explore" : [
