@@ -9,7 +9,16 @@ permalink: "blog/archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNum
 eleventyExcludeFromCollections: true
 ---
 <h2>{{ title }}</h2>
-
+<nav aria-label="Archive Navigation">
+  <p>
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}">Newer Posts</a>
+      {% endif %}
+      {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}"> - Older Posts</a>
+      {% endif %}
+  </p>
+</nav>
 <ul class="post-list">
   {% for post in posts %}
     <li>
@@ -18,19 +27,3 @@ eleventyExcludeFromCollections: true
     </li>
   {% endfor %}
 </ul>
-
-<nav aria-label="Archive Navigation">
-  <p>
-      {% if pagination.href.previous %}
-        <a href="{{ pagination.href.previous }}">← Newer Posts</a>
-      {% else %}
-        <span>Newer Posts</span>
-      {% endif %}
-        -
-      {% if pagination.href.next %}
-        <a href="{{ pagination.href.next }}">Older Posts →</a>
-      {% else %}
-        <span>Older Posts</span>
-      {% endif %}
-  </p>
-</nav>
