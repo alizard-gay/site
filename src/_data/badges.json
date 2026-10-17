@@ -1,5 +1,5 @@
 {
-    "badges" : [
+    "friends" : [
         {
             "href" : "https://vrbat.nekoweb.org",
             "src" : "https://vrbat.nekoweb.org/image/vrbatbutton.gif",
@@ -29,6 +29,23 @@
             "href" : "https://icecubegame.net",
             "src" : "https://icecubegame.net/assets/88x31/icecubegame.gif",
             "alt" : "Icecubegame Badge" 
+        }
+    ],
+    "explore" : [
+        {
+            "href" : "https://resonite.com/",
+            "src" : "/assets/images/badges/resonite.png",
+            "alt" : "Resonite Badge" 
+        },
+        {
+            "href" : "https://indieweb.org/",
+            "src" : "https://indieweb.org/images/9/91/indieweb88x31-retro-gif.gif",
+            "alt" : "Indieweb Badge" 
+        },
+        {
+            "href" : "https://store.steampowered.com/",
+            "src" : "/assets/images/badges/steam.webp",
+            "alt" : "Steam Badge" 
         }
     ]
 }

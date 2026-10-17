@@ -20,7 +20,7 @@ date: Git Last Modified
 <hr>
 <section class="friends-list">
     <ul id="friends">
-        {% for badge in friends.badges %}
+        {% for badge in badges.friends %}
         <li>     
             <a rel="friend" href="{{ badge.href }}">
             <img style="image-rendering: pixelated;" src="{{ badge.src }}" alt="{{ badge.alt }}">
@@ -34,21 +34,13 @@ date: Git Last Modified
 <hr>
 <section class="friends-list">
     <ul>
+        {% for badge in badges.explore %}
         <li>     
-            <a href="https://resonite.com/">
-            <img style="image-rendering: pixelated;" src="/assets/images/badges/resonite.png">
+            <a rel="friend" href="{{ badge.href }}">
+            <img style="image-rendering: pixelated;" src="{{ badge.src }}" alt="{{ badge.alt }}">
             </a>
         </li>
-        <li>     
-            <a href="https://indieweb.org/">
-            <img style="image-rendering: pixelated;" src="https://indieweb.org/images/9/91/indieweb88x31-retro-gif.gif">
-            </a>
-        </li>
-        <li>     
-            <a href="https://store.steampowered.com/">
-            <img style="image-rendering: pixelated;" src="/assets/images/badges/steam.webp">
-            </a>
-        </li>
+        {% endfor %}
     </ul>
 </section>
 
