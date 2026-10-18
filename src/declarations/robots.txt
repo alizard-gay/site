@@ -34,21 +34,20 @@
 
 User-Agent: *
 Content-Signal: ai-train=no, search=yes, ai-input=no
+Content-Usage: ai=n
+DisallowAITraining: /
 Allow: /
 
-Google-Extended:
-Disallow: /
-
+User-agent: Google-Extended
 User-agent: Applebot-Extended
-Disallow: /
-
-User-agent: Bytespider
-Disallow: /
-
 User-agent: ClaudeBot
-Disallow: /
-
 User-agent: meta-externalagent
+User-Agent: GPTBot
+User-Agent: Facebookbot
+User-Agent: Bytespider
+User-Agent: TikTokSpider
 Disallow: /
+DisallowAITraining: /
 
 Host: alizard.gay
+Sitemap: https://alizard.gay/sitemap.xml
