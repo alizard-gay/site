@@ -6,7 +6,7 @@ updated: 2026-10-14T00:00:00-07:00
 tags: 
   - site 
   - meta
-image: assets/images/blog/thumbnails/lizard_icon.png
+image: assets/images/blog/thumbnails/lizard_icon.webp
 imagetype: summary
 ---
 We are now officially moved to alizard.gay!
