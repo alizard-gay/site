@@ -4,12 +4,6 @@
 # Basically just you can skim my site for search, but please don't use my site for training or deep data collection.
 # If you're a cool robot send a lizard to the email robots@alizardguy.com
 
-User-Agent: *
-Content-Signal: ai-train=no, search=yes, ai-input=no
-Content-Usage: ai=n
-DisallowAITraining: /
-Allow: /
-Disallow: /contact/
 
 User-agent: Google-Extended
 User-agent: Applebot-Extended
@@ -23,6 +17,13 @@ User-Agent: AI2Bot-Dolma
 User-Agent: OAI-SearchBot
 User-Agent: Google-CloudVertexBot
 Disallow: /
+DisallowAITraining: /
+
+User-Agent: *
+Disallow: /contact/
+Allow: /
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Content-Usage: ai=n
 DisallowAITraining: /
 
 Host: alizard.gay
