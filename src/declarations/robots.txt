@@ -9,6 +9,7 @@ Content-Signal: ai-train=no, search=yes, ai-input=no
 Content-Usage: ai=n
 DisallowAITraining: /
 Allow: /
+Disallow: /contact/
 
 User-agent: Google-Extended
 User-agent: Applebot-Extended
