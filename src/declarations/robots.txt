@@ -23,7 +23,6 @@ User-Agent: *
 Disallow: /contact/
 Allow: /
 Content-Signal: ai-train=no, search=yes, ai-input=no
-Content-Usage: ai=n
 DisallowAITraining: /
 
 Host: alizard.gay
