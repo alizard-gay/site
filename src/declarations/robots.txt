@@ -18,6 +18,9 @@ User-Agent: GPTBot
 User-Agent: Facebookbot
 User-Agent: Bytespider
 User-Agent: TikTokSpider
+User-Agent: AI2Bot-Dolma
+User-Agent: OAI-SearchBot
+User-Agent: Google-CloudVertexBot
 Disallow: /
 DisallowAITraining: /
 
