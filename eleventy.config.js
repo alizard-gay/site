@@ -22,8 +22,8 @@ export default function(eleventyConfig) {
         },
         metadata: {
             language : "en",
-            title : "alizardgay blog",
-            subtitle : "Personal blog",
+            title : "alizard's blog",
+            subtitle : "Blog where I talk about tech, standards, and life.",
             base : "https://alizard.gay/blog/",
             author: {
                 name: "alizard",
