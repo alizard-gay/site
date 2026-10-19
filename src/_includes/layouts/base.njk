@@ -45,6 +45,12 @@
     <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
     <link rel="webmention" href="https://webmention.io/{{ site.domain }}/webmention" />
+
+    {% if extrahead %}
+    {% for extra in extrahead %}
+    {{ extra | safe }}
+    {% endfor %}
+    {% endif %}
 </head>
 <body>
     {% include "partials/header.njk" %}
