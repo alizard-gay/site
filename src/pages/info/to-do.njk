@@ -8,6 +8,7 @@ eleventyExcludeFromCollections: true
 ---
 <h2>Things To-Do:</h2>
 <ul>
-    <li>Web Mention support</li>
-    <li>Bluesky comments on blog posts</li>
+    {% for item in todo.list %}
+        <li>{{ item.text }}</li>
+    {% endfor %}
 </ul>

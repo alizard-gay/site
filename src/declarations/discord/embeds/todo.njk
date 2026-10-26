@@ -1,0 +1,18 @@
+---
+permalink: /discord/embeds/todo.json
+discordembed: todo.json
+---
+{
+  "component": {
+    "type": 17,
+    "accent_color": 5793266,
+    "components": [
+    {% for item in todo.list %}
+      {
+        "type": 10,
+        "content": "{{ item.text }}"
+      }{% if not loop.last %},{% endif %}
+    {% endfor %}
+    ]
+  }
+}
