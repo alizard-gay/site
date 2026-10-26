@@ -1,17 +1,11 @@
 {
   "component": {
     "type": 17,
-    "spoiler": false,
     "accent_color": 4783872,
     "components": [
       {
-        "type": 9,
-        "components": [
-          {
-            "type": 10,
-            "content": "# Hello, I am alizard!\nI like kobolds, coding, and VR."
-          }
-        ]
+        "type": 10,
+        "content": "# Hello, I am alizard!\nI like kobolds, coding, and VR."
       },
       {
         "type": 1,
