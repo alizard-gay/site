@@ -13,7 +13,7 @@ permalink: /discord/embeds/todo.json
     {% for item in todo.list %}
       {
         "type": 10,
-        "content": "{{ item.text }}"
+        "content": "- {{ item.text }}"
       }{% if not loop.last %},{% endif %}
     {% endfor %}
     ]
