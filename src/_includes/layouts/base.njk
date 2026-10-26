@@ -51,6 +51,14 @@
     {{ extra | safe }}
     {% endfor %}
     {% endif %}
+
+    {% if discordembed %}
+    <link
+    rel="discord:component-embed"
+    type="application/json"
+    href="{{ site.url }}/discord/embeds/{{discordembed}}"
+    >
+    {% endif %}
 </head>
 <body>
     {% include "partials/header.njk" %}
